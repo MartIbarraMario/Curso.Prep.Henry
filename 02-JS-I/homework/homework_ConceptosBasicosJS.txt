@@ -1,0 +1,37 @@
+Variable:
+
+Las variables son contenedores donde almacenamos diferentes tipos de datos; estos datos pueden ser "string","numeros", "booleanos", etcétera.
+El valor de una variable puede cambiar a lo largo del programa.
+
+Para nombrar una variable se deben seguir un par de simples reglas:
+
+1.- El primer caracter debe ser una letra (x), un guión bajo (_), o bien, el signo de dolar ($).
+2.- Un numero nunca puede ser el peimer caracter del nombre de una variable. 
+3.- Los nombre no deben, ni pueden contener espacio, o simbolos especiales (#,%,/,+).
+
+String:
+
+Un string es una cadena de texto que debe ser tratada como una sola unidad. Esta debe ser almacenada entre comillas, ya sea comillas simples ('') o dobles ("").
+Sí el string lleva comillas dentro de las comillas se debe de utilizar el caracter de escape (\) para convertir los caracteres especiales en parte de la cadena de texto.
+
+Funciones (argumentos/returns):
+
+Se le conoce cfunciones al bloque de código designado para ejecutar una tarea en particular.
+Tras definir el código, la funcionse puede reutilizar varias veces co  distintos argumentos. 
+
+Para ejecutar una función necesitamos llamarla; se comienza por el nombre, seguido de los argumentos entre paréntesis, para finalizar con ";".
+
+Los argumentos son parámetros o datos que almacenan alguna variable, es decir, un valor en específico. 
+
+Return:
+Es una sentencia que finaliza  la ejecución de la función, y especifica el valor que debe ser devuelto a dixha función. 
+
+La declaración if:
+
+Es un flujo de control que sirve para que nuestra función verifique si algo es verdadero o falso por medio de la comparación. 
+
+Booleanos:
+
+Los valores booleanos son un tipo de dato lógico que sólo puede almacenar dos clases de valores: true (verdadero) y false (falso).
+Estos tambien pueden ser si/no, encendido/apagado, verdader/falso, etcétera. 
+
