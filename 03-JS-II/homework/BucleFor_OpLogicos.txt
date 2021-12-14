@@ -1,0 +1,20 @@
+Bucle For:
+
+Los bucles son útiles cuando se quiere ejecutar el mismo código  "x" numero de veces, añadiendo valores diferentes cada vez.
+
+El bucle for se caracteriza por contar con 3 statements, o declaraciones:
+1er Statement.- Es la cantidad  de repeticiones.
+2do Statement.- Determina donde dejara de ejecutarse.
+3er Statement.- Es el incremento. 
+
+Operadores lógicos:
+&& (AND/Y)
+Retorna "true" sí ambos operadores son verdaderos. 
+
+|| (OR/O)
+Retorna "true" sí al menos uno de los operadores  es verdadero.
+
+! (NOT/NO)
+Retorna "true" si el operador es falso, y "false" si es verdadero.
+
+Los operadores lógicos tambien son conocidos como operadores booleaneos.
