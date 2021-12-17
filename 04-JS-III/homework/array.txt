@@ -1,0 +1,6 @@
+Array (Arreglo):
+
+Un array es una lista ordenada de valores a los que te 
+refieres con un nombre y un índice. ... El objeto Array 
+tiene métodos para manipular arreglos de varias formas, 
+tal como unirlos, invertirlos y ordenarlos.
