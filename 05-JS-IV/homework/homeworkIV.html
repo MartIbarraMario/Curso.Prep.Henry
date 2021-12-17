@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+<title>Curso Prep Henry</title>
+
+<style>
+				#body{
+            background: #FFF09C;
+				justify-content: center;
+				text-align: center;
+				margin: 5px;
+				padding: 5px;
+}
+
+.ejemplos{
+				border-radius: 25px;
+				background:#ffaae1;
+				margin: auto;
+				padding: 8px;
+                opacity: 0.7;
+}
+
+</style>
+
+				</head>
+<body id="body">
+				<h1>Objetos en javascript</h1>
+				<hr>
+				<h3>Objetos:</h3>
+<p>
+				Las variables en JavaScript son contenedores para valores y datos.  
+
+En esencia,  losobjetos también funcionan cómo variables, con la diferencia de que estos pueden almacenar muchas variables.
+<br> <br>
+
+Piensa en los objetos como una lista de
+valores que son escritos de la siguiente manera:  <b>name:value</b> <i>(nombre:valor)</i>, con el nombre y los valores separados por dos puntos.
+</p>
+
+  	  <div class="ejemplos">	 <p><sup>
+  		 				Ejemplo de sintaxis de un Objeto:</sup></p>
+
+          <p class="ejemplo"><sub>
+          	var Persona = { <br />
+                nombre: 'Mario',<br />
+                edad: 25,<br />
+                genero: 'masculino'<br />
+            }
+            </sub></p>  
+</div>
+<h3>Propiedades:</h3>
+
+<p>Una propiedad es la unión entre un
+nombre (o clave) y un valor. <br>
+
+El valor de una propiedad puede ser una 
+función, en cuyo caso la propiedad es 
+conocida como un método.</p>
+
+
+
+      <div class="ejemplos"><p><sup>Ejemplo:</sup></p>  
+
+    <p class="ejemplo"><sub>
+    				var persona = {<br>
+    saludar: function() {<br>
+    console.log('¡Hola mundo!');<br>
+    				}<br>
+}<br>
+
+    Persona.saludar(); <br></sub></p>
+</div>
+
+<h3>Bucle “for … in loop”: </h3>
+
+<p>
+				Es ligeramente diferente, al bucle clásico <b>"for"</b> pero, apesar de comienzar igual, esté bucle alberga entre sus paréntesis la declaración de una variable, ademas de la palabra clave <b>"in" </b>y el nombre del objeto.
+<br><br>
+Esto recorrerá cada clave del objeto y
+finalizará cuando se haya revisado todas las claves.
+</p>
+
+<h3>Notación de puntos vs notación de corchetes:</h3>
+
+
+<p>
+				Tanto la notación de puntos, como la notación de corchetes se emplean para acceder a los valores.
+</p>
+
+     <div class="ejemplos">
+     				<p><sub>
+     				1.-Notación de puntos:<br>
+
+        persona.nombre;<br>
+<br>
+    2.- Notación de corchetes:<br>
+
+        persona['Mario']; </sub></p>
+</div>
+<p>
+				Este ultimo se emplea al igual que llamar a un elemento dentro de un arreglo, pero entre los corchetes debemos usar una cadena de texto, o número, o una variable que apunte a una cadena o número.
+</p>
+
+</body>
+</html>
+
