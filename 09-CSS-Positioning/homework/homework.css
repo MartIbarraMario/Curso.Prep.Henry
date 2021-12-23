@@ -7,6 +7,8 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
+   display: block;
+   text-align: center;
 
 }
 
@@ -14,25 +16,160 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
-
+#ejercicioDos{
+   display: none;
+}
 
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
-
+#ejercicioTres{
+   position: relative;
+   top: 100px;
+   margin-left: 200px;
+   
+}
 
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
-
+#ejercicioCuatro{
+   position: fixed;
+   left: 0;
+   top: 0;
+}
 
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
 
+#ejercicioCinco{
+   
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-direction: column;
+}
 
 
 /* Ejercicio 6. */
+#ejercicioCinco{
+   flex-direction: row-reverse;
+}
+
+/* Ejercicio 7. */
+#ejercicioSiete{
+   background-color: lightpink;
+   border-width: 10px;
+   border-style: groove dashed groove dashed;
+   
+    flex-direction: column-reverse;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+   
+}
+.container7{
+ animation: element 5s ease-in infinite;
+   
+
+}
+@keyframes element {
+   
+     0% {
+
+background-color: pink;
+  }
+
+  10% {
+
+background-color: #8e44ad;
+  }
+
+  20% {
+
+background-color: #1abc9c;
+  }
+
+  30% {
+
+background-color: #d35400;
+  }
+
+  40% {
+
+    background-color: #DD9A5D;
+  }
+
+  50% {
+
+    background-color: #34495e;
+  }
+
+  60% {
+
+    background-color: #8C32C9;
+  }
+
+  70% {
+
+    background-color: #2980b9;
+  }
+  80% {
+
+    background-color: #f1c40f;
+  }
+
+  90% {
+
+    background-color: #2980b9;
+  }
+
+  100% {
+
+   background-color: pink;
+  }
+}
+#elementoDos, #elementoUno, #elementoCuatro, #elementoTres{
+   justify-content: center;
+   border-radius: 40px;
+   
+}
+#elementoUno:hover{
+   border: solid red;
+   border-width: 7px;
+   background-color: #00FF9B;
+   transform: translate(0px, -300px);
+  background-color: #3F00FF;
+  color: white;
+}
+#elementoCuatro:hover{
+   transform: scale(0.3) translate(0%, 0%);
+   text-align: center;
+   justify-content: center;
+   
+}
+#elementoDos:hover{
+   
+   transform-origin: center;
+animation:spin 2s ease-in infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+
+  
